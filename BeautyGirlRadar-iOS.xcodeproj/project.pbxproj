@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8103F8198388E1004F7AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8103F7198388E1004F7AB1 /* main.m */; };
+		AB8103FB198388E1004F7AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8103FA198388E1004F7AB1 /* AppDelegate.m */; };
+		AB8103FE198388E1004F7AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8103FD198388E1004F7AB1 /* ViewController.m */; };
+		AB810401198388E1004F7AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8103FF198388E1004F7AB1 /* Main.storyboard */; };
+		AB810403198388E1004F7AB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB810402198388E1004F7AB1 /* Images.xcassets */; };
+		AB81040F198388E1004F7AB1 /* BeautyGirlRadar_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81040E198388E1004F7AB1 /* BeautyGirlRadar_iOSTests.m */; };
+		AB81041A19838E8C004F7AB1 /* GGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81041919838E8C004F7AB1 /* GGTool.m */; };
+		AB81041D19838FE1004F7AB1 /* PreviewPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81041C19838FE1004F7AB1 /* PreviewPhotoViewController.m */; };
+		AB81042019839E35004F7AB1 /* OverlaySearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81041F19839E35004F7AB1 /* OverlaySearchView.m */; };
+		AB8104251983B8FB004F7AB1 /* RadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8104241983B8FB004F7AB1 /* RadarView.m */; };
+		ABD639B319840BE800F7CBA0 /* sssss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABD639B219840BE800F7CBA0 /* sssss.mp3 */; };
+		D0E8D9BC53CE4F8D9DCDBE83 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BB14E10F3D4B03A85FE0A0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB810409198388E1004F7AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8103EA198388E1004F7AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8103F1198388E1004F7AB1;
+			remoteInfo = "BeautyGirlRadar-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E7994ABA9ED47BAAA3E5055 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		93BB14E10F3D4B03A85FE0A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8103F2198388E1004F7AB1 /* BeautyGirlRadar-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeautyGirlRadar-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8103F6198388E1004F7AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8103F7198388E1004F7AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB8103F9198388E1004F7AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB8103FA198388E1004F7AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB8103FC198388E1004F7AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB8103FD198388E1004F7AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB810400198388E1004F7AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB810402198388E1004F7AB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB810408198388E1004F7AB1 /* BeautyGirlRadar-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeautyGirlRadar-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB81040D198388E1004F7AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB81040E198388E1004F7AB1 /* BeautyGirlRadar_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyGirlRadar_iOSTests.m; sourceTree = "<group>"; };
+		AB81041819838E8C004F7AB1 /* GGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTool.h; sourceTree = "<group>"; };
+		AB81041919838E8C004F7AB1 /* GGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTool.m; sourceTree = "<group>"; };
+		AB81041B19838FE1004F7AB1 /* PreviewPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewPhotoViewController.h; sourceTree = "<group>"; };
+		AB81041C19838FE1004F7AB1 /* PreviewPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewPhotoViewController.m; sourceTree = "<group>"; };
+		AB81041E19839E35004F7AB1 /* OverlaySearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlaySearchView.h; sourceTree = "<group>"; };
+		AB81041F19839E35004F7AB1 /* OverlaySearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlaySearchView.m; sourceTree = "<group>"; };
+		AB8104231983B8FB004F7AB1 /* RadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarView.h; sourceTree = "<group>"; };
+		AB8104241983B8FB004F7AB1 /* RadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarView.m; sourceTree = "<group>"; };
+		ABD639B219840BE800F7CBA0 /* sssss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sssss.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8103EF198388E1004F7AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E8D9BC53CE4F8D9DCDBE83 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB810405198388E1004F7AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ACB55824DB42E48D7979CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BB14E10F3D4B03A85FE0A0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB8103E9198388E1004F7AB1 = {
+			isa = PBXGroup;
+			children = (
+				AB8103F4198388E1004F7AB1 /* BeautyGirlRadar-iOS */,
+				AB81040B198388E1004F7AB1 /* BeautyGirlRadar-iOSTests */,
+				AB8103F3198388E1004F7AB1 /* Products */,
+				1E7994ABA9ED47BAAA3E5055 /* Pods.xcconfig */,
+				33ACB55824DB42E48D7979CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8103F3198388E1004F7AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8103F2198388E1004F7AB1 /* BeautyGirlRadar-iOS.app */,
+				AB810408198388E1004F7AB1 /* BeautyGirlRadar-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8103F4198388E1004F7AB1 /* BeautyGirlRadar-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABD639B219840BE800F7CBA0 /* sssss.mp3 */,
+				AB81041E19839E35004F7AB1 /* OverlaySearchView.h */,
+				AB81041F19839E35004F7AB1 /* OverlaySearchView.m */,
+				AB8103F9198388E1004F7AB1 /* AppDelegate.h */,
+				AB8103FA198388E1004F7AB1 /* AppDelegate.m */,
+				AB8103FC198388E1004F7AB1 /* ViewController.h */,
+				AB8103FD198388E1004F7AB1 /* ViewController.m */,
+				AB8104231983B8FB004F7AB1 /* RadarView.h */,
+				AB8104241983B8FB004F7AB1 /* RadarView.m */,
+				AB81041B19838FE1004F7AB1 /* PreviewPhotoViewController.h */,
+				AB81041C19838FE1004F7AB1 /* PreviewPhotoViewController.m */,
+				AB8103FF198388E1004F7AB1 /* Main.storyboard */,
+				AB810402198388E1004F7AB1 /* Images.xcassets */,
+				AB8103F5198388E1004F7AB1 /* Supporting Files */,
+				AB81041819838E8C004F7AB1 /* GGTool.h */,
+				AB81041919838E8C004F7AB1 /* GGTool.m */,
+			);
+			path = "BeautyGirlRadar-iOS";
+			sourceTree = "<group>";
+		};
+		AB8103F5198388E1004F7AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8103F6198388E1004F7AB1 /* Info.plist */,
+				AB8103F7198388E1004F7AB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB81040B198388E1004F7AB1 /* BeautyGirlRadar-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB81040E198388E1004F7AB1 /* BeautyGirlRadar_iOSTests.m */,
+				AB81040C198388E1004F7AB1 /* Supporting Files */,
+			);
+			path = "BeautyGirlRadar-iOSTests";
+			sourceTree = "<group>";
+		};
+		AB81040C198388E1004F7AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB81040D198388E1004F7AB1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8103F1198388E1004F7AB1 /* BeautyGirlRadar-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB810412198388E1004F7AB1 /* Build configuration list for PBXNativeTarget "BeautyGirlRadar-iOS" */;
+			buildPhases = (
+				E104BFE42AA244A3952DC8C7 /* Check Pods Manifest.lock */,
+				AB8103EE198388E1004F7AB1 /* Sources */,
+				AB8103EF198388E1004F7AB1 /* Frameworks */,
+				AB8103F0198388E1004F7AB1 /* Resources */,
+				43F012F46C9748B6961E1E7B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeautyGirlRadar-iOS";
+			productName = "BeautyGirlRadar-iOS";
+			productReference = AB8103F2198388E1004F7AB1 /* BeautyGirlRadar-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB810407198388E1004F7AB1 /* BeautyGirlRadar-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB810415198388E1004F7AB1 /* Build configuration list for PBXNativeTarget "BeautyGirlRadar-iOSTests" */;
+			buildPhases = (
+				AB810404198388E1004F7AB1 /* Sources */,
+				AB810405198388E1004F7AB1 /* Frameworks */,
+				AB810406198388E1004F7AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB81040A198388E1004F7AB1 /* PBXTargetDependency */,
+			);
+			name = "BeautyGirlRadar-iOSTests";
+			productName = "BeautyGirlRadar-iOSTests";
+			productReference = AB810408198388E1004F7AB1 /* BeautyGirlRadar-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8103EA198388E1004F7AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = gogolook;
+				TargetAttributes = {
+					AB8103F1198388E1004F7AB1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AB810407198388E1004F7AB1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AB8103F1198388E1004F7AB1;
+					};
+				};
+			};
+			buildConfigurationList = AB8103ED198388E1004F7AB1 /* Build configuration list for PBXProject "BeautyGirlRadar-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8103E9198388E1004F7AB1;
+			productRefGroup = AB8103F3198388E1004F7AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8103F1198388E1004F7AB1 /* BeautyGirlRadar-iOS */,
+				AB810407198388E1004F7AB1 /* BeautyGirlRadar-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8103F0198388E1004F7AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB810401198388E1004F7AB1 /* Main.storyboard in Resources */,
+				ABD639B319840BE800F7CBA0 /* sssss.mp3 in Resources */,
+				AB810403198388E1004F7AB1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB810406198388E1004F7AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43F012F46C9748B6961E1E7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E104BFE42AA244A3952DC8C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8103EE198388E1004F7AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8103FE198388E1004F7AB1 /* ViewController.m in Sources */,
+				AB8103FB198388E1004F7AB1 /* AppDelegate.m in Sources */,
+				AB8103F8198388E1004F7AB1 /* main.m in Sources */,
+				AB81042019839E35004F7AB1 /* OverlaySearchView.m in Sources */,
+				AB81041D19838FE1004F7AB1 /* PreviewPhotoViewController.m in Sources */,
+				AB81041A19838E8C004F7AB1 /* GGTool.m in Sources */,
+				AB8104251983B8FB004F7AB1 /* RadarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB810404198388E1004F7AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB81040F198388E1004F7AB1 /* BeautyGirlRadar_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB81040A198388E1004F7AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8103F1198388E1004F7AB1 /* BeautyGirlRadar-iOS */;
+			targetProxy = AB810409198388E1004F7AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB8103FF198388E1004F7AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB810400198388E1004F7AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB810410198388E1004F7AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB810411198388E1004F7AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB810413198388E1004F7AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7994ABA9ED47BAAA3E5055 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "BeautyGirlRadar-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB810414198388E1004F7AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7994ABA9ED47BAAA3E5055 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "BeautyGirlRadar-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB810416198388E1004F7AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeautyGirlRadar-iOS.app/BeautyGirlRadar-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeautyGirlRadar-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AB810417198388E1004F7AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeautyGirlRadar-iOS.app/BeautyGirlRadar-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeautyGirlRadar-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8103ED198388E1004F7AB1 /* Build configuration list for PBXProject "BeautyGirlRadar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB810410198388E1004F7AB1 /* Debug */,
+				AB810411198388E1004F7AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB810412198388E1004F7AB1 /* Build configuration list for PBXNativeTarget "BeautyGirlRadar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB810413198388E1004F7AB1 /* Debug */,
+				AB810414198388E1004F7AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB810415198388E1004F7AB1 /* Build configuration list for PBXNativeTarget "BeautyGirlRadar-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB810416198388E1004F7AB1 /* Debug */,
+				AB810417198388E1004F7AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8103EA198388E1004F7AB1 /* Project object */;
+}
